@@ -1,0 +1,24 @@
+<theme>
+    <view name="system, gamelist">
+        <carousel name="mainCarousel">
+            <selectedItemMargins>0.045 0.045</selectedItemMargins>
+            <itemSize>0.127 0.204</itemSize>
+            <maxItemCount>7.7</maxItemCount>
+        </carousel>
+        <text name="itemName">
+            <pos>0.378 0.475</pos>
+        </text>
+        <image name="selectedOutline">
+            <size>0 0.412</size>
+            <pos>0.158 0.162</pos>
+        </image>
+        <helpsystem name="help">
+            <pos>0.01 0.93</pos>
+        </helpsystem>
+    </view>
+    <view name="gamelist">
+        <text name="gameDescription">
+            <pos>0.25 0.75</pos>
+        </text>
+    </view>
+</theme>

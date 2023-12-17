@@ -1,0 +1,28 @@
+<theme>
+    <view name="system, gamelist">
+        <text name="itemName">
+            <fontPath>./assets/fonts/sst.ttf</fontPath>
+            <fontSize>0.075</fontSize>
+            <color>FFFFFF</color>
+        </text>
+        <helpsystem name="help">
+            <fontPath>./assets/fonts/sst.ttf</fontPath>
+            <fontSize>0.028</fontSize>
+            <textColor>FFFFFF</textColor>
+            <iconColor>FFFFFF</iconColor>
+            <letterCase>capitalize</letterCase>
+        </helpsystem>
+    </view>
+    <view name="gamelist">
+        <text name="systemName">
+            <fontPath>./assets/fonts/sst.ttf</fontPath>
+            <fontSize>0.030</fontSize>
+            <color>FFFFFF</color>
+        </text>
+        <text name="gameDescription">
+            <fontPath>./assets/fonts/sst.ttf</fontPath>
+            <fontSize>0.030</fontSize>
+            <color>FFFFFF</color>
+        </text>
+    </view>
+</theme>

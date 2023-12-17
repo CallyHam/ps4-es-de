@@ -1,0 +1,18 @@
+<themeCapabilities>
+    <themeName>Playstation 4</themeName>
+    <aspectRatio>4:3</aspectRatio>
+    <aspectRatio>16:9</aspectRatio>
+    <aspectRatio>16:10</aspectRatio>
+    <transitions name="instant-slide">
+        <label>Instant And Slide</label>
+        <selectable>true</selectable>
+        <systemToSystem>instant</systemToSystem>
+        <systemToGamelist>slide</systemToGamelist>
+        <gamelistToGamelist>instant</gamelistToGamelist>
+        <gamelistToSystem>slide</gamelistToSystem>
+    </transitions>
+    <suppressTransitionProfiles>
+        <entry>builtin-slide</entry>
+        <entry>builtin-fade</entry>
+    </suppressTransitionProfiles>
+</themeCapabilities>

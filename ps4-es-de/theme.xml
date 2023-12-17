@@ -1,0 +1,106 @@
+<theme>
+    <include>./fonts.xml</include>
+    <include>./sounds.xml</include>
+    <aspectRatio name="4:3">
+        <include>./layouts/4x3.xml</include>
+    </aspectRatio>
+    <aspectRatio name="16:9">
+        <include>./layouts/16x9.xml</include>
+    </aspectRatio>
+    <aspectRatio name="16:10">
+        <include>./layouts/16x10.xml</include>
+    </aspectRatio>
+    <view name="system, gamelist">
+        <carousel name="mainCarousel">
+            <pos>0 0</pos>
+            <size>1 1</size>
+            <color>4567c4FF</color>
+            <unfocusedItemOpacity>1</unfocusedItemOpacity>
+            <zIndex>1</zIndex>
+            <imageFit>fill</imageFit>
+            <itemScale>1.6 1.6</itemScale>
+            <horizontalOffset>-0.233</horizontalOffset>
+            <verticalOffset>-0.163</verticalOffset>
+        </carousel>
+        <image name="footer">
+            <tile>false</tile>
+            <size>1 0</size>
+            <pos>0 1</pos>
+            <origin>0 1</origin>
+            <zIndex>2</zIndex>
+            <path>./assets/images/footer.svg</path>
+            <stationary>always</stationary>
+        </image>
+        <text name="itemName">
+            <size>0 0.030</size>
+            <text>Item Name</text>
+            <size>0 0.030</size>
+            <zIndex>2</zIndex>
+        </text>
+        <image name="selectedOutline">
+            <tile>false</tile>
+            <origin>0 0</origin>
+            <zIndex>2</zIndex>
+        </image>
+        <helpsystem name="help">
+            <origin>0 1</origin>
+            <opacity>3</opacity>
+            <opacityDimmed>0.75</opacityDimmed>
+        </helpsystem>
+    </view>
+    <view name="system">
+        <carousel name="mainCarousel">
+            <staticImage>./assets/images/systems/system_${system.name}.png</staticImage>
+            <defaultImage>./assets/images/systems/system_default.png</defaultImage>
+        </carousel>
+        <text name="itemName">
+            <systemdata>fullname</systemdata>
+            <text>System Name</text>
+        </text>
+        <image name="selectedOutline">
+            <path>./assets/images/systemSelect.png</path>
+        </image>
+    </view>
+    <view name="gamelist">
+        <carousel name="mainCarousel">
+            <imageType>cover</imageType>
+            <defaultImage>./assets/images/game_none.png</defaultImage>
+        </carousel>
+        <text name="itemName">
+            <text>Game Name</text>
+            <metadata>name</metadata>
+        </text>
+        <text name="systemName">
+            <text>${system.fullName}</text>
+            <pos>0.025 0.005</pos>
+            <origin>0 0</origin>
+            <size>0.45 0.125</size>
+        </text>
+        <image name="seperator">
+            <tile>false</tile>
+            <size>0.66 0</size>
+            <pos>0 0.125</pos>
+            <origin>0 0</origin>
+            <zIndex>2</zIndex>
+            <path>./assets/images/seperator.png</path>
+        </image>
+        <text name="gameDescription">
+            <text>This game has no description.</text>
+            <metadata>description</metadata>
+            <pos>0.25 0.725</pos>
+            <origin>0 0</origin>
+            <size>0.45 0.125</size>
+        </text>
+        <image name="shadow">
+            <tile>false</tile>
+            <size>1 0</size>
+            <pos>0 1</pos>
+            <origin>0 1</origin>
+            <zIndex>1</zIndex>
+            <path>./assets/images/shadow.svg</path>
+        </image>
+        <image name="selectedOutline">
+            <path>./assets/images/gameSelect.png</path>
+        </image>
+    </view>
+</theme>

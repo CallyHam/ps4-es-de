@@ -1,0 +1,16 @@
+<theme>
+    <view name="all">
+        <sound name="back">
+            <path>./assets/sounds/back.wav</path>
+        </sound>
+        <sound name="systembrowse, scroll">
+            <path>./assets/sounds/scroll.wav</path>
+        </sound>
+        <sound name="quicksysselect, launch, select">
+            <path>./assets/sounds/select.wav</path>
+        </sound>
+        <sound name="favorite">
+            <path>./assets/sounds/favorite.wav</path>
+        </sound>
+    </view>
+</theme>
