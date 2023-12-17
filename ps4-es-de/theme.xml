@@ -14,7 +14,7 @@
         <carousel name="mainCarousel">
             <pos>0 0</pos>
             <size>1 1</size>
-            <color>4567c4FF</color>
+            <color>00000000</color>
             <unfocusedItemOpacity>1</unfocusedItemOpacity>
             <zIndex>1</zIndex>
             <imageFit>fill</imageFit>
@@ -22,12 +22,24 @@
             <horizontalOffset>-0.233</horizontalOffset>
             <verticalOffset>-0.163</verticalOffset>
         </carousel>
+        <image name="background">
+            <tile>false</tile>
+            <size>1 1</size>
+            <pos>0 0</pos>
+            <origin>0 0</origin>
+            <zIndex>0</zIndex>
+            <gradientType>vertical</gradientType>
+            <path>./assets/images/space.png</path>
+            <color>6996E7FF</color>
+            <colorEnd>223596FF</colorEnd>
+            <stationary>always</stationary>
+        </image>
         <image name="footer">
             <tile>false</tile>
             <size>1 0</size>
             <pos>0 1</pos>
             <origin>0 1</origin>
-            <zIndex>2</zIndex>
+            <zIndex>4</zIndex>
             <path>./assets/images/footer.svg</path>
             <stationary>always</stationary>
         </image>
@@ -40,7 +52,7 @@
         <image name="selectedOutline">
             <tile>false</tile>
             <origin>0 0</origin>
-            <zIndex>2</zIndex>
+            <zIndex>3</zIndex>
         </image>
         <helpsystem name="help">
             <origin>0 1</origin>
@@ -74,6 +86,7 @@
             <text>${system.fullName}</text>
             <pos>0.025 0.005</pos>
             <origin>0 0</origin>
+            <zIndex>2</zIndex>
             <size>0.45 0.125</size>
         </text>
         <image name="seperator">
@@ -96,7 +109,7 @@
             <size>1 0</size>
             <pos>0 1</pos>
             <origin>0 1</origin>
-            <zIndex>1</zIndex>
+            <zIndex>5</zIndex>
             <path>./assets/images/shadow.svg</path>
         </image>
         <image name="selectedOutline">
