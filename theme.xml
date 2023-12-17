@@ -102,6 +102,7 @@
             <metadata>description</metadata>
             <pos>0.25 0.725</pos>
             <origin>0 0</origin>
+            <zIndex>3</zIndex>
             <size>0.45 0.125</size>
         </text>
         <image name="shadow">
@@ -109,7 +110,7 @@
             <size>1 0</size>
             <pos>0 1</pos>
             <origin>0 1</origin>
-            <zIndex>5</zIndex>
+            <zIndex>2</zIndex>
             <path>./assets/images/shadow.svg</path>
         </image>
         <image name="selectedOutline">
